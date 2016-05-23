@@ -10,16 +10,13 @@ Date: `r Sys.Date()`
 	
 + I would like to assess the relationship between patient experience and healthcare quality and efficiency. 
 
-
 2. Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
 
 + Patients' perspective of hospital care, also known as patient experience, has become an important aspect of healthcare. In 2010, with the implementation of the Affordable Care Act (ACA) and Value-Based Purchasing (VBP), the U.S. becomes the first country to link Medicare reimbursement to patient experience. More hospital administrations are now pouring resources into education, facility upgrades, and other hospital-wide initiatives to improve patient experience. Given the importance of HCHAPS, many still remain skeptic about the impact of patient experience in healthcare outcomes (e.g., 30-day mortality and 30-day readmission), efficiency (healthcare spending), and patient safety (e.g., hospital-acquired infections and complications). This study would help to determine this association and understand if the resources devoted towards patient experience is improving patient health. 
 
-
 3. What data are you going to use for this? How will you acquire this data?
 
 + Since the implementation of Value-Based Purchasing in 2013, CMS has been publically reporting the submitted data from each hospital through https://www.medicare.gov/hospitalcompare/search.html. Data from patient experience as well outcomes, process , and efficiency can be downloaded from data.medicare.gov.
-
 
 4. In brief, outline your approach to solving this problem (knowing that this might change later).
 
@@ -27,8 +24,6 @@ Date: `r Sys.Date()`
 + Giving any single year, Is patient satisfaction associated with outcomes, process, and efficiency based on the data available.
 + I would also like to look at improvement overtime and see if patient experience longitudinally has any impact on healthcare quality improvement. 
 
-
 5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
 
 + I will develop a slide deck by the end of the class, and hopefully this could be turn into a short paper. 
-
