@@ -1,0 +1,29 @@
+---
+Title: "Patient Experience: Improving Patient Engagement in Hospital Settings"
+Author: "Jason Chiu"
+Mentor: Sneha Runwal
+output: html_document
+---
+Date: `r Sys.Date()`
+
+
+1. What is the problem you want to solve?
+
++ I would like to examine the relationship between the different domains of patient expeirence, and understanding its relationship with patients' overall hosptial expeirence. 
+
+2. Who is your client and why do they care about this problem? In other words, what will your client DO or DECIDE based on your analysis that they wouldn’t have otherwise?
+
++ Patients' perspective of hospital care, also known as patient experience, has become an important aspect of healthcare. In 2010, with the implementation of the Affordable Care Act (ACA) and Value-Based Purchasing (VBP), the U.S. becomes the first country to link Medicare reimbursement to patient experience. Given the importance of patient experience in patient care, many hospital administrations have devoted copious resources into customer service education, facility upgrades, and other hospital-wide initiatives to improve patient experience. However, many hospitals are still performing below the national benchmark and struggling to develop effective improvement strategies for patient experience. Patient experience is complex, because it is the summation of all interactions patients encounter in the hospital, from registration staff to physicians. In this study, I would like to further examine the relationship between the different domains of patient experience and overall patient experience to better inform future strategies to improve patient-centered care. 
+
+
+3. What data are you going to use for this? How will you acquire this data?
+
++ Since the implementation of Value-Based Purchasing in 2013, CMS has been publically reporting the submitted data from each hospital through https://www.medicare.gov/hospitalcompare/search.html. Data from patient experience as well outcomes, process , and efficiency can be downloaded from data.medicare.gov.
+
+4. In brief, outline your approach to solving this problem (knowing that this might change later)
+
++ A lot of organization uses the overall rating of the experience as an indicator for patient experience  - I would like to see which domains within HCAHPS have the highest connection with the overall rating. I will use linear regression, logistic regression, regression tree, and random forest to predict % of patients that gave their hospital the top rating. 
+
+5. What are your deliverables? Typically, this would include code, along with a paper and/or a slide deck.
+
++ I will develop a paper as well as a slide deck by the end of the class. I would like to eventually turn this into a short blog and publish the results on a healthcare blog.
